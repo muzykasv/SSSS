@@ -9,7 +9,7 @@ public class Ut{   /*класс Util, видим в нём два типизир
                      Оба варианта представлены в примере.*/
 
     public static class Util {
-        public static <T> T getValue(Object obj, Class <T> clazz) {
+        public static <T> T getValue(Object obj, Class <T> class1) {
             return (T) obj;
         }
         public static <T> T getValue(Object obj) {

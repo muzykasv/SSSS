@@ -13,7 +13,8 @@ public class ArithmeticAction {
         second = num.nextFloat();
         result = first * second;
         result /=2;
-        result ++;
         System.out.println("Result is = " + result);
+        double result1 = result *2;
+        System.out.println("Result is = " + result1);
     }
 }
